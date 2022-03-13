@@ -18,8 +18,6 @@
 
 * [Folder Structure](#folder-structure)
 
-# 
-
 ## Requirement
 
 ### Software
@@ -27,8 +25,6 @@
 * [Anaconda](https://www.anaconda.com/)
 
 * [Spyder](https://www.spyder-ide.org/)
-
-
 
 ### Library
 
@@ -54,19 +50,13 @@ pip install mediapipe
 pip install tensorflow
 ```
 
-
-
 ### Dataset
 
 Please download from this [link](https://drive.google.com/drive/folders/10rgr6mk7qBQfZjGZj610k1FPVQBdBMlQ?usp=sharing).
 
-
-
 ### Source Code
 
 Please download `main.py` and `videorecorder.py` from this [link](https://drive.google.com/drive/folders/1Fjw_E1Si-6RMxMbPUfr6foi7spSACNcq?usp=sharing).
-
-
 
 ### Clone from github
 
@@ -79,8 +69,6 @@ git clone https://github.com/snoymy/AI_fall_detection.git
 via web [link](https://github.com/snoymy/AI_fall_detection)
 
 ![](./assets/web.png)
-
-# 
 
 ## Folder Structure
 
