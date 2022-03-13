@@ -76,7 +76,7 @@ via Terminal
 git clone https://github.com/snoymy/AI_fall_detection.git
 ```
 
-via web
+via web [link](https://github.com/snoymy/AI_fall_detection)
 
 ![](./assets/web.png)
 
