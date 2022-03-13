@@ -56,7 +56,17 @@ Please download from this [link](https://drive.google.com/drive/folders/10rgr6mk
 
 Please download `main.py` and `videorecorder.py` from this [link](https://drive.google.com/drive/folders/1Fjw_E1Si-6RMxMbPUfr6foi7spSACNcq?usp=sharing).
 
+### Or Clone from github
 
+via Terminal
+
+```shell
+git clone https://github.com/snoymy/AI_fall_detection.git
+```
+
+via web
+
+![](./assets/web.png)
 
 ## Folder Structure
 
@@ -87,8 +97,4 @@ and predict
 
 ![](./assets/predict.png)
 
-
-
 if you only want to train and test just run only `main.py`, but if you want collect new dataset run `videorecorder.py`.
-
-
