@@ -18,6 +18,12 @@
 
 * [Folder Structure](#folder-structure)
 
+* [Run](#run)
+  
+  * [Train and predict](#train-and-predict)
+  
+  * [Predict only](#predict-only)
+
 ## Requirement
 
 ### Software
@@ -56,7 +62,11 @@ Please download from this [link](https://drive.google.com/drive/folders/10rgr6mk
 
 ### Source Code
 
-Please download `main.py` and `videorecorder.py` from this [link](https://drive.google.com/drive/folders/1Fjw_E1Si-6RMxMbPUfr6foi7spSACNcq?usp=sharing).
+Please download `main.py` , `predict.py` and `videorecorder.py` from this [link](https://drive.google.com/drive/folders/1Fjw_E1Si-6RMxMbPUfr6foi7spSACNcq?usp=sharing).
+
+### Model
+
+Please download from this [link](https://drive.google.com/drive/folders/1t6K_VNCV9Fr_JSKOpQMxyXxD6Tkdf8JX?usp=sharing) (Lastest version is `dense4-2x1000-40vid.h5`).
 
 ### Clone from github
 
@@ -80,23 +90,31 @@ fall_detector
   │    ├── fall
   │    └── normal
   ├── main.py
-  └── videorecorder.py
+  ├── predict.py
+  ├── videorecorder.py
+  └── dense4-2x1000-40vid.h5
 ```
 
-Open `main.py` with **Spyder** and press run.
+## Run
+
+### Train and predict
+
+Open `main.py` with **Spyder** and press run. This will collect data -> train -> predict.
 
 ![](./assets/run.png)
-
-
 
 after run
 
 ![](./assets/main_program_run.png)
 
-
-
 and predict
 
 ![](./assets/predict.png)
 
-if you only want to train and test just run only `main.py`, but if you want collect new dataset run `videorecorder.py`.
+you can create new dataset by your self by running`videorecorder.py`.
+
+### Predict only
+
+First you need to have model (can download from Requirement section). Open file `predict.py` and run.
+
+![](./assets/predictonly.png)
