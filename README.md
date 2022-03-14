@@ -14,6 +14,8 @@
   
   * [Source Code](#source-code)
   
+  * [Model](#model)
+  
   * [Clone from github](#clone-from-github)
 
 * [Folder Structure](#folder-structure)
